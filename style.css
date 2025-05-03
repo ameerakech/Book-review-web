@@ -1,0 +1,162 @@
+h1{
+    color: aliceblue;
+    margin: 0%;
+    position: absolute;
+    margin-top: 6cm;
+    margin-left: 3cm;
+    font-family: kurale;
+    text-align: center;
+}
+.heading{
+    background-image:url(images/born.jpg);
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 100vh;
+    background-size: cover;
+    font-size: 450%;
+}
+#noah{
+    color: orange;
+}
+body{
+    margin: 0;
+}
+#description{
+    border: solid 1px;
+    margin: 0;
+    height: 1cm;
+    text-align: center;
+    font-size: 150%;
+    color: aliceblue;
+    background-color: grey;
+}
+nav ul{
+    list-style: none;
+    display: flex;
+    gap: 4cm;
+    font-size: 150%;
+    padding-left: 12cm;
+    margin: 0%;
+    
+    
+
+}
+nav ul a{
+    text-decoration: none;
+    color: orange;
+    font-weight: bold;
+ 
+    
+}
+#book{
+height: 12cm;
+width: 95%;
+border-radius: 25px;
+margin-top: 2cm;
+margin-left: 5cm;
+}
+
+.synopsis{
+    display: flex;
+    gap: 6cm;
+}
+
+.book-summary p{
+    margin-top: 3cm;
+    font-family:kurale;
+    font-size: 120%;
+}
+.book-summary{
+    margin-top: 2cm;
+}
+@font-face {
+    font-family:kurale ;
+    src: url(fonts/Kurale-Regular.ttf);
+}
+h2{
+    color: orange;
+    font-size: 180%;
+    margin-top: 1cm;
+    position: absolute;
+    font-family: kurale;
+}
+
+h3{
+    color: orange;
+    font-size: 150%;
+    margin-top: 1cm;
+
+}
+.title-rename{
+margin-left: 4.5cm;
+margin-top: 3cm;
+font-family: kurale;
+font-size: 120%;
+}
+
+.life-in-color{
+    display: flex;
+    gap: 3cm;
+}
+#book-title{
+    width: 30%;
+    margin-top: 3.5cm;
+}
+
+#blog-img{
+    width: 20%;
+    margin-left: 18cm;
+    margin-top: 2cm;
+    
+}
+
+
+.my-blog p{
+    font-family: kurale;
+    font-size: 130%;
+    text-align: center;
+}
+#louding{
+width: 15%;
+border-radius: 25px;
+margin-left: 9.5cm;
+
+}
+#mitchelle{
+width: 15%;
+border-radius: 25px;
+}
+
+#friends{
+width: 14.2%;
+border-radius: 25px;
+}
+.novels{
+word-spacing: 3cm;
+}
+h4{
+    color: orange;
+    font-size: 200%;
+    font-family: kurale;
+    text-align: center;
+}
+
+.icons{
+   
+    display: flex;
+    gap: 5cm;
+
+}
+.footerlog{
+    border: solid 1px;
+    background-color: rgb(220, 245, 231);
+}
+
+#copyright{
+    text-align: center;
+}
+
+#contact{
+    font-size: 120%;
+    text-align: center;
+}
