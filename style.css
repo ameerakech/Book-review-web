@@ -30,23 +30,32 @@ body{
     color: aliceblue;
     background-color: grey;
 }
-nav ul{
-    list-style: none;
-    display: flex;
-    gap: 4cm;
-    font-size: 150%;
-    padding-left: 12cm;
-    margin: 0%;
-    
-    
 
+nav ul {
+    background-color: rgb(0, 0, 0, 0.2);
+    padding: 30px;
+    display: flex;
+    justify-content: center;
+    word-spacing: 20px;
+    position: sticky;
+    z-index: 999;
+    top: 0;
+    list-style: none;
+    gap: 3cm;
+    font-size: 150%;
 }
-nav ul a{
+
+a {
     text-decoration: none;
-    color: orange;
+    word-spacing: 20px;
+    font-size: 15px;
+    color: black;
+}
+
+a:hover {
+    transform: scale(2s);
+    color: white;
     font-weight: bold;
- 
-    
 }
 #book{
 height: 12cm;
@@ -145,6 +154,7 @@ h4{
    
     display: flex;
     gap: 5cm;
+    margin-left: 3cm;
 
 }
 .footerlog{
@@ -159,4 +169,115 @@ h4{
 #contact{
     font-size: 120%;
     text-align: center;
+}
+
+@media only screen and (max-width:750px) {
+    h1{
+        color: aliceblue;
+        margin: 0%;
+        position: absolute;
+        margin-top: 2cm;
+        margin-left: 1.5cm;
+        font-family: kurale;
+        text-align: center;
+    }
+
+    .heading{
+        background-image:url(images/born.jpg);
+        background-repeat: no-repeat;
+        width: 93%;
+        height: 50vh;
+        background-size: cover;
+        font-size: 300%;
+    }
+
+    nav ul{
+        list-style: none;
+        display: flex;
+        gap: 0.35cm;
+        font-size: 90%;
+        padding-left: 0cm;
+        margin: 0%;
+        position: sticky;
+        
+    }
+
+    #book{
+        height: 50vh;
+        width: 95vw;
+        border-radius: 25px;
+        margin-top: 0cm;
+        margin-left: 0cm;
+        }
+        
+        .synopsis{
+            flex-direction: column;
+            gap: 0cm;
+        }
+    
+        h3{
+            color: orange;
+            font-size: 120%;
+            margin-top: 1cm;
+        
+        }
+      
+        
+        .life-in-color{
+            display: flex;
+            gap: 0cm;
+        }
+
+        .title-rename{
+            margin-left: 0.5cm;
+            margin-top: 0cm;
+            font-family: kurale;
+            font-size: 120%;
+            }
+
+            #book-title{
+                width: 50%;
+                margin-top: 3.5cm;
+            }
+        
+            #blog-img{
+                width: 50%;
+                margin-left: 2cm;
+                margin-top: 1cm;
+                
+            }
+
+            #louding{
+                width: 25%;
+                border-radius: 25px;
+                margin-top: -4cm;
+                position: absolute;
+            
+                
+                }
+                #mitchelle{
+                width: 25%;
+                border-radius: 25px;
+                }
+                
+                #friends{
+                width: 24.2%;
+                border-radius: 25px;
+                }
+            
+
+                .novels{
+                    word-spacing: 1cm;
+                    }
+
+                .icons{
+
+            
+                    gap: 1cm;
+                    margin-left: 0cm;
+                
+                }
+
+
+    
 }
